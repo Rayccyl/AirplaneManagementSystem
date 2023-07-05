@@ -1,0 +1,3 @@
+/home/quyupinglei/program/APBS1/cmake-build-debug/CMakeFiles/APBS.dir
+/home/quyupinglei/program/APBS1/cmake-build-debug/CMakeFiles/edit_cache.dir
+/home/quyupinglei/program/APBS1/cmake-build-debug/CMakeFiles/rebuild_cache.dir

@@ -1,0 +1,134 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<CodeBlocks_project_file>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="APBS"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="gcc"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/home/quyupinglei/program/APBS1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APBS">
+				<Option output="/home/quyupinglei/program/APBS1/cmake-build-debug/APBS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/quyupinglei/program/APBS1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 APBS"/>
+					<CompileFile command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="APBS/fast">
+				<Option output="/home/quyupinglei/program/APBS1/cmake-build-debug/APBS" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/home/quyupinglei/program/APBS1/cmake-build-debug"/>
+				<Option object_output="./"/>
+				<Option type="1"/>
+				<Option compiler="gcc"/>
+				<Compiler>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/x86_64-pc-linux-gnu"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/../../../../include/c++/13.1.1/backward"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include"/>
+					<Add directory="/usr/local/include"/>
+					<Add directory="/usr/lib/gcc/x86_64-pc-linux-gnu/13.1.1/include-fixed"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 APBS/fast"/>
+					<CompileFile command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/home/quyupinglei/program/APBS1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/home/quyupinglei/program/APBS1/cmake-build-debug"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="make -j20 -f &quot;/home/quyupinglei/program/APBS1/cmake-build-debug/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/quyupinglei/program/APBS1/APBS.h">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/BookingCore.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/BookingManagement.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/BookingMenu.h">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/CDRU.h">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/FlightInformationManagement.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/TicketBooking.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/addFlightRecord.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/main.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/readFlightRecord.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/removeFlightRecord.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/saveFlightRecord.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/searchFlightRecord.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/statistic.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/updateFlightRecord.cpp">
+			<Option target="APBS"/>
+		</Unit>
+		<Unit filename="/home/quyupinglei/program/APBS1/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
+</CodeBlocks_project_file>
